@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate1</title>
+    <meta name="author" content="Sneha Sudhakaran">
+    <meta name="description" content="Website for Real Estate">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/index1.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        .home{
+            height:450px;
+        }
+        
+        .overlay{
+            height:450px;
+        }
+        @media screen and (min-device-width:320px) and (max-device-width:400px){
+            .home{
+                height:220px;
+                margin-bottom: -50px;
+            }
+            .overlay{
+                height:220px;
+            }
+        }
+    </style>
+
+</head>
+<body >
+    <!-- Start -->
+    <!-- Navbar container -->
+    <nav class="navbar navbar-expand-md navbar-dark container-md container-fluid-sm ">
+        <div class="container nav-con">
+            <img src="./assets/images/home-removebg-preview.png" class="me-2">
+            <a class="navbar-brand fw-semibold me-auto" href="#">Real Estate</a>
+            <div class="con">
+            <button class=" ms-0 navbar-toggler nav-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon nav-icon"></span>
+            </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto gap-4 ">
+                <a class="nav-link active" aria-current="page" href="index1.html">Home</a>
+                <a class="nav-link" href="property_type.html">Property type</a>
+                <!-- <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Buy</a> -->
+                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="collections.html">Gallery</a>
+                <a class="nav-link" href="service.html">Services</a>
+                <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-end offcan" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">Real Estate</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body offcan-body">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a> 
+                <a class="nav-link" href="property_type.html">Property type</a>
+                <!-- <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Buy</a> -->
+                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="collections.html">Gallery</a>
+                <a class="nav-link" href="service.html">Services</a>
+                <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact Us</a>
+            </div>
+            </div>
+        </div>
+    </nav> 
+
+    <!-- banner container with some info -->
+    <div class="container-fluid home home1">
+        <div class="overlay"></div>
+        <div class=" homeContent">
+            <h1 class="homeContentHead">Let's find a home<br> that's perfect for you.</h1>
+            <p class="paraContent">Search confidently with you trusted source of homes for <br>sale or rent.</p>
+            <div class="searchBar bg-white">
+                <div class="row">
+                    <div class="col-3">
+                        <a href="#location">Location</a>
+                        <span><ion-icon name="chevron-down-outline"></ion-icon></span>
+                    </div>
+                    <div class="col-4">
+                        <a href="#">Average Price</a>
+                        <span><ion-icon name="chevron-down-outline"></ion-icon></span>
+                    </div>
+                    <div class="col">
+                        <span><ion-icon name="search-outline"></ion-icon></span>
+                        <input type="text" placeholder="search">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Ongoing project -->
+
+    <div class="ongoProject text-center">
+        <h3 class="onHead ">Explore our <span class="headingForProject">projects</span></h3>
+        <p class="onHead mb-5">Experience the ultimate luxury of our apartments in chennai, which are strategically located within 500 meters from the quadrangular Kathipara flyover. Serving as the city's primary entry and exit point, it offers unparalleled connectivity to all parts of Chennai, making travel a breeze. Moreover, VGN Fairmont boasts an excellent neighborhood with well-laid roads and lush green trees, creating a serene and picturesque environment for comfortable living. You can experience the utmost convenience of our luxurious homes, with seamless access to an array of top-notch amenities within reach.</p>
+
+        <div class="row row1 d-flex justify-content-between onProjectColumns">
+            <div class="col-2 OnCol1 onCol">
+                <img src="./assets/images/13246758_5174551.jpg">
+                <div class="divide">
+                <p class="fw-bolder">Allure</p>
+                <p class="fw-bolder plus1" style="cursor:pointer">+</p>
+                </div>
+                <div class="exten exten1">
+                    <p><span class="fw-bolder">Project Name :</span> Allure</p>
+                    <p><span class="fw-bolder">Developer Name :</span> ATS Realty Pvt Ltd</p>
+                    <p><span class="fw-bolder">Location :</span> Noida</p>
+                    <p><span class="fw-bolder">Services offered :</span> TDD</p>
+                </div>
+            </div>
+            <div class="col-2 OnCol2 onCol">
+                <img src="./assets/images/4739256.jpg">
+                <div class="divide">
+                    <p class="fw-bolder">Alta Vista</p>
+                    <p class="fw-bolder plus2" style="cursor:pointer">+</p>
+                </div>
+                <div class="exten exten2">
+                    <p><span class="fw-bolder">Project Name :</span> Alta Vista</p>
+                    <p><span class="fw-bolder">Developer Name :</span> Spenta Enclave Pvt Ltd</p>
+                    <p><span class="fw-bolder">Location :</span> Mumbai</p>
+                    <p><span class="fw-bolder">Services offered :</span> Project Monitoring</p>
+                </div>
+            </div>
+            <div class="col-2 OnCol3 onCol">
+                <img src="./assets/images/5216301.jpg">
+                <div class="divide">
+                <p class="fw-bolder">Aster Court Premier</p>
+                <p class="fw-bolder plus3" style="cursor:pointer">+</p>
+                </div>
+                <div class="exten exten3">
+                    <p><span class="fw-bolder">Project Name :</span> Aster Court Premier</p>
+                    <p><span class="fw-bolder">Developer Name :</span> Orris Infrastructure Pvt Ltd</p>
+                    <p><span class="fw-bolder">Location :</span> Gurgaon</p>
+                    <p><span class="fw-bolder">Services offered :</span> TDD</p>
+                </div>
+            </div>
+            <div class="col-2 OnCol4 onCol">
+                <img src="./assets/images/6137705.jpg">
+                <div class="divide">
+                <p class="fw-bolder">Bombay XI - Jacob Circle</p>
+                <p class="fw-bolder plus4" style="cursor:pointer">+</p>
+                </div>
+                <div class=" exten exten4">
+                    <p><span class="fw-bolder">Project Name :</span> Bombay XI - Jacob Circle</p>
+                    <p><span class="fw-bolder">Developer Name :</span>Mittal Life Spaces Pvt Ltd</p>
+                    <p><span class="fw-bolder">Location :</span> Mumbai</p>
+                    <p><span class="fw-bolder">Services offered :</span> TDD</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overview -->
+    <div class="overView d-flex justify-content-center align-items-center">
+        <div class=" d-flex over justify-content-between">
+            <div class="col-2 overViewImage">
+                <img src="./assets/images/blue5.jpg">
+            </div>
+            <div class="overViewContent col-2 col-21">
+                <h3 class="overViewH3" id="Overview">Overview</h3>
+                <h5>What we do?</h5>
+                <p>We are a real estate and construction consulting firm based in Chennai, TN. Our team of experienced professionals provides expert advice and guidance to clients in the real estate industry.At our core, we believe in building long-term relationships with our clients by providing exceptional service and delivering results. Our goal is to help our clients achieve their real estate goals and maximize their investments.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Completed projects -->
+
+    <!-- Real Estate & Homes For Sale -->
+    <div class="sale container">
+        <h3 class="saleHead" >Real Estate &<span class="headingForProject"> Homes For Sale ! </span></h3>
+        <div class="row row1 roww1 mt-3 g-4">
+            <div class="col sall  saleContainer news-col p-2 pt-2">
+                <img class="saleImage1" src="./assets/images/real7.jpeg">
+                <div class="news-col-content px-2">
+                    <h1 >C$849,000  </h1>
+                    <p >2 bd2 ba1,439 sqft - house for sale </p>
+                    <p >84 Pinewood Rd, McDougall, ON P2A 2W7
+                        MLS® ID #40477047, RE/MAX PARRY SOUND MUSKOKA REALTY LTD.
+                        </p>
+                </div>
+                <hr class="hr">
+                <div class="row row2 px-2">
+                    <div class="col">
+                        <p  class="para-top" >house for sale</p>
+                    </div>
+                    <div class="col rCol1">
+                        <a href="#" class="small" >Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col news-col  sall saleContainer1 p-2 pt-2">
+                <img class="saleImage2" src="./assets/images/real4.jpeg">
+                <div class="news-col-content px-2">
+                    <h1>C$849,000  </h1>
+                    <p>2 bd2 ba1,439 sqft - house for sale</p>
+                    <p>84 Pinewood Rd, McDougall, ON P2A 2W7
+                        MLS® ID #40477047, RE/MAX PARRY SOUND MUSKOKA REALTY LTD.
+                    </p>
+                </div>
+                <hr class="hr">
+                <div class="row row2 px-2">
+                    <div class="col">
+                        <p class="para-top">house for sale</p>
+                    </div>
+                    <div class="col rCol1">
+                        <a href="#" class="small">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <ul class="list-unstyled">
+            <li class="page-item">
+                <a class="page-link" href="" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item" ><a class="page-link page-link1" >1</a></li>
+            <li class="page-item page-link2" ><a class="page-link" >2</a></li>
+            <li class="page-item page-link3"><a class="page-link" >3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Map  -->
+    <div class="map text-center" id="location">
+        <h3 class="mb-2">Location <span class="headingForProject"> Advantages </span></h3>
+        <div class="container w-75">
+            <p class="text-center mb-5">Established in 1942, It has successfully carved a niche for itself in the ever-dynamic real estate industry over the last 83 years. An ISO 9001-2008 certified company, It is known as much for its beautiful, world-class homes as it is for following best practices in the industry, being an Integrated Management System (IMS)-certified company by Lloyd's Register.</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31092.59259556078!2d80.14057578283456!3d13.06276129012694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52614907840a99%3A0xa88708759e2b8a26!2sMaduravoyal%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1694323137580!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Gallery -->
+    <div class="collections">
+        <h3  id="Gallery">Our <span class="headingForProject">Collections</span></h3>
+        <div class="row collectionRow d-flex justify-content-between">
+            <div class="col-2 colRow">
+                <img src="./assets/images/bailey-anselme-Bkp3gLygyeA-unsplash.jpg" class="images-21 img1" >
+                <img src="./assets/images/brian-babb-XbwHrt87mQ0-unsplash.jpg" class="img3" >
+            </div>
+            <div class="col-2 colRow">
+                <img src="./assets/images/chuttersnap-awL_YCtPGv4-unsplash.jpg" class="img4" >
+                <img src="./assets/images/digital-marketing-agency-ntwrk-g39p1kDjvSY-unsplash.jpg" class="img6" >
+            </div>
+        </div>
+        <div class="div" >
+            <p><a href="collections.html" >See more</a></p>
+            <span ><ion-icon name="chevron-forward-outline"></ion-icon></span>
+            
+        </div>
+    </div>
+
+    <!-- Property type -->
+
+    <!-- Amenities -->
+    <div class="amenities"  id="Amenities">
+        <h3 class="text-center mb-5" ><span class="headingForProject">Amenities </span></h3>
+        <div class="row amenity">
+            <div class="col-21 d-flex justify-content-center align-items-center text-secondary text-center" >
+                The Edge Rooftop <br>Infinity Pool
+            </div>
+            <div class="col-21  d-flex justify-content-center align-items-center  text-secondary text-center" >
+                Multi-Generational Playarea
+            </div>
+            <div class="col-21  d-flex justify-content-center align-items-center  text-secondary text-center" >
+                Fragrant Garden
+            </div>
+            <div class="col-21  d-flex justify-content-center align-items-center  text-secondary text-center">
+                Kids' Cycling Track
+            </div>
+        </div>
+        <div class="row  amenity">
+            <div class="col-21  d-flex justify-content-center align-items-center  text-secondary text-center">
+                Adult Fitness
+            </div>
+            <div class="col-21  d-flex justify-content-center align-items-center  text-secondary text-center" >
+                The Wellness Garden
+            </div>
+            <div class="col-21  d-flex justify-content-center align-items-center   text-secondary text-center" >
+                Rainwater Harvesting
+            </div>
+            <div class="col-21  d-flex justify-content-center align-items-center  text-secondary text-center" >
+                Water Cascade
+            </div>
+        </div>
+        <div class="row amenity">
+            <div class="col-21  d-flex justify-content-center align-items-center  text-secondary text-center" >
+                The Ascot Lounge Clubhouse
+            </div>
+            <div class="col-21  d-flex justify-content-center align-items-center  text-secondary text-center" >
+                Grill and BBQ Area
+            </div>
+            <div class="col-21 d-flex justify-content-center align-items-center  text-secondary text-center" >
+                Kids’ Splash Pool
+            </div>
+            <div class="col-21  d-flex justify-content-center align-items-center  text-secondary text-center">
+                Third Space of London - Gymnasium
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+
+    <!-- Contact Us -->
+
+    <!-- Footer -->
+    <div class="footer mt-5" >
+        <div class="footer-overlay"></div>
+        <div class="row p-5 footer-con11">
+            <div class="col-21 ">
+                <div class="logo d-flex">
+                <img src="./assets/images/home-removebg-preview.png" class="me-3 img-logo" >
+                <h5 class="mb-4" >Real Estate</h5>
+                </div>
+                <p >It is committed to delivering a
+                    high level of expertise, customer 
+                    service, and attention to the 
+                    marketing and sales</p>
+            </div>
+
+            <div class="col-21" >
+                <h5 class="mb-4">Contact Us</h5>
+                <div class="rowss">
+                    <div class="cols">
+                        <span ><ion-icon name="location"></ion-icon></span>
+                    </div>
+                    <div class="cols">
+                        <p >8638 America stranford Mailbon, california, TX 70240</p>
+                    </div>
+                </div>
+                <div class="rowss">
+                    <div class="cols">
+                        <span ><ion-icon name="mail"></ion-icon></span>
+                    </div>
+                    <div class="cols">
+                        <a href="mailto:support@gmail.com">support@gmail.com</p>
+                    </div>
+                </div>
+                <div class="rowss">
+                    <div class="cols">
+                        <span><ion-icon name="call"></ion-icon></span>
+                    </div>
+                    <div class="cols">
+                        <a href="tel:9002323243">9002323243</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-21 latest">
+                <h5 class="mb-4" >Latest Properties</h5>
+                <div class="rows2 d-flex justify-content-between">
+                    <div class="col-2" >
+                        <img src="./assets/images/realtor_02.jpg">
+                    </div>
+                    <div class="col-2" >
+                        <p>Luxury house in greenville
+                            from $ 86,000</p>
+                    </div>
+                </div>
+                <div class="rows2 d-flex justify-content-between mt-3">
+                    <div class="col-2" >
+                        <img src="./assets/images/realestate5.jpg">
+                    </div>
+                    <div class="col-2" >
+                        <p>Luxury house in greenville
+                            from $ 86,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-21">
+                <h5 class="mb-4 socials" >Socials</h5>
+                <div class="footer-icons ms-auto" >
+                    <span>
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </span>
+                    <span>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </span>
+                    <span>
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </span>
+                    <span>
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </span>
+                </div>
+            </div>
+       </div>
+    </div>
+
+    <!-- End -->
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="./assets/Javascript/script1.js"></script>
+
+    <!-- Waypoints -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <!-- Javascript -->
+    <!-- <script src="./assets/Javascript/script.js"></script> -->
+
+    <!-- AOS -->
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>-->
+</body>
+</html>

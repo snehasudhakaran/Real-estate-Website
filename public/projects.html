@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate1</title>
+    <meta name="author" content="Sneha Sudhakaran">
+    <meta name="description" content="Website for Real Estate">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/index1.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+        @media screen and (min-device-width:801px) and (max-device-width:991px){
+            nav{
+                max-width: 1000px !important;
+                margin-left: -30px !important;
+            }
+            .nav-con img{
+                margin-left: -80px !important;
+            }
+            .navbar-collapse{
+                width:90% !important;
+                margin-left: 90px !important;
+                gap:0px !important;
+            }
+        }
+        .home{
+            background: url("./assets/images/realEstate3.jpg") no-repeat;
+            background-size: cover;
+            height:370px;
+        }
+        .overlay{
+            position: absolute;
+            width:100%;
+            height:370px;
+            background-color: rgba(11, 8, 8, 0.64);
+            top:0px;
+            left:0px;
+        }
+        
+    </style>
+
+</head>
+<body >
+    <!-- Start -->
+    <!-- Navbar container -->
+    <nav class="navbar navbar-expand-md navbar-dark container-md container-fluid-sm">
+        <div class="container">
+            <img src="./assets/images/home-removebg-preview.png" class="me-2">
+            <a class="navbar-brand fw-semibold me-auto" href="#">Real Estate</a>
+            <button class="navbar-toggler nav-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon nav-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto  gap-4 ">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" href="property_type.html">Property type</a>
+                <!-- <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Buy</a> -->
+                <a class="nav-link active" href="projects.html">Projects</a>
+                <a class="nav-link" href="collections.html">Gallery</a>
+                <a class="nav-link" href="service.html">Services</a>
+                <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-end offcan" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">Real Estate</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body offcan-body">
+                <a class="nav-link" aria-current="page" href="index1.html">Home</a>    
+                <a class="nav-link" href="property_type.html">Property type</a>
+                <!-- <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Buy</a> -->
+                <a class="nav-link active" href="projects.html">Projects</a>
+                <a class="nav-link" href="collections.html">Gallery</a>
+                <a class="nav-link" href="service.html">Services</a>
+                <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact Us</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <!-- banner container with some info -->
+    <div class="container-fluid home">
+        <div class="overlay"></div>
+        <div class=" homeContent">
+            <h1 class="homeContentHead">Let's find a home<br> that's perfect for you.</h1>
+            <p class="paraContent">Search confidently with you trusted source of homes for <br>sale or rent.</p>
+            <!-- <div class="searchBar bg-white">
+                <div class="row">
+                    <div class="col-3">
+                        <a href="#">Location</a>
+                        <span><ion-icon name="chevron-down-outline"></ion-icon></span>
+                    </div>
+                    <div class="col-4">
+                        <a href="#">Average Price</a>
+                        <span><ion-icon name="chevron-down-outline"></ion-icon></span>
+                    </div>
+                    <div class="col">
+                        <span><ion-icon name="search-outline"></ion-icon></span>
+                        <input type="text" placeholder="search">
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    
+    <!-- Ongoing project -->
+    <div class="ongoProject text-center">
+        <h3 class="onHead ">Ongoing <span class="headingForProject">projects</span></h3>
+        <p>Whether you seek a cozy 2BHK flat or have your heart set on luxurious duplex apartments for sale in Chennai, we offer an extensive range of options to cater to your every need and budget. Discover our diverse projects that ensure luxury living is a dream-made reality!</p>
+        <br>
+
+        <div class="row row1 d-flex justify-content-between onProjectColumns">
+            <div class="col-2 OnCol1 onCol">
+                <img src="./assets/images/realstate1.jpeg">
+                <div class="divide">
+                    <p class="fw-bolder">Costeira</p>
+                    <p class="fw-bolder plus1" style="cursor:pointer">+</p>
+                </div>
+                <div class="exten exten1">
+                    <p><span class="fw-bolder">Project Name :</span> Costeira</p>
+                    <p><span class="fw-bolder">Developer Name :</span> ATS Realty Pvt Ltd</p>
+                    <p><span class="fw-bolder">Location :</span> Noida</p>
+                    <p><span class="fw-bolder">Services offered :</span> TDD</p>
+                </div>
+            </div>
+            <div class="col-2 OnCol2 onCol">
+                <img src="./assets/images/realstate2.jpg">
+                <div class="divide">
+                    <p class="fw-bolder">Ridhima</p>
+                    <p class="fw-bolder plus2" style="cursor:pointer">+</p>
+                </div>
+                <div class="exten exten2">
+                    <p><span class="fw-bolder">Project Name :</span> Ridhima</p>
+                    <p><span class="fw-bolder">Developer Name :</span> ATS Realty Pvt Ltd</p>
+                    <p><span class="fw-bolder">Location :</span> Noida</p>
+                    <p><span class="fw-bolder">Services offered :</span> TDD</p>
+                </div>
+            </div>
+            <div class="col-2 OnCol3 onCol">
+                <img src="./assets/images/realstate.jpg">
+                <div class="divide">
+                    <p class="fw-bolder">Alta VistDB Park Woodsa</p>
+                    <p class="fw-bolder plus3" style="cursor:pointer">+</p>
+                </div>
+                <div class="exten exten3">
+                    <p><span class="fw-bolder">Project Name :</span> Alta VistDB</p>
+                    <p><span class="fw-bolder">Developer Name :</span> ATS Realty Pvt Ltd</p>
+                    <p><span class="fw-bolder">Location :</span> Noida</p>
+                    <p><span class="fw-bolder">Services offered :</span> TDD</p>
+                </div>
+            </div>
+            <div class="col-2 OnCol4 onCol">
+                <img src="./assets/images/realstate2.jpg">
+                <div class="divide">
+                    <p class="fw-bolder">Palmgrove</p>
+                    <p class="fw-bolder plus4" style="cursor:pointer">+</p>
+                </div>
+                <div class="exten exten4">
+                    <p><span class="fw-bolder">Project Name :</span> Palmgrove</p>
+                    <p><span class="fw-bolder">Developer Name :</span> ATS Realty Pvt Ltd</p>
+                    <p><span class="fw-bolder">Location :</span> Noida</p>
+                    <p><span class="fw-bolder">Services offered :</span> TDD</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Completed projects -->
+     <div class="ongoProject onCompleted text-center text-center">
+        <h3 class="onHead">Explore our <span class="headingForProject">other projects !</span></h3>
+        
+        <p>Pratima a Notting Hill Luxury Homes Next to Taj Coromandel is one of our prestigious residential projects, comprising luxury apartments for sale in Chennai. Due to the historical importance of the region and its reputation as a prime residential area, living in Pratima Notting Hill provides residents with a sense of prestige and exclusivity. Nungambakkam has a rich historical significance and has been considered an upper-class European residential area, attracting business tycoons and influential people in the city. The project spans over an area of 1.44 acres and features 166 luxury 3BHK apartments on stilt +14 floors.</p><br>
+
+        <div class="row row1 d-flex justify-content-between onProjectColumns">
+            <div class="col-2 OnCol1 onCol">
+                <img src="./assets/images/realEstate1.jpeg">
+                <div class="divide">
+                    <p class="fw-bolder">Pratima</p>
+                    <p class="fw-bolder plus5" style="cursor:pointer">+</p>
+                </div>
+                <div class="exten exten5">
+                    <p><span class="fw-bolder">Project Name :</span> Palmgrove</p>
+                    <p><span class="fw-bolder">Developer Name :</span> ATS Realty Pvt Ltd</p>
+                    <p><span class="fw-bolder">Location :</span> Noida</p>
+                    <p><span class="fw-bolder">Services offered :</span> TDD</p>
+                </div>
+            </div>
+            <div class="col-2 OnCol2 onCol">
+                <img src="./assets/images/realEstate3.jpg">
+                <div class="divide">
+                    <p class="fw-bolder">Primrose</p>
+                    <p class="fw-bolder plus6" style="cursor:pointer">+</p>
+                </div>
+                <div class="exten exten6">
+                    <p><span class="fw-bolder">Project Name :</span> Primrose</p>
+                    <p><span class="fw-bolder">Developer Name :</span> ATS Realty Pvt Ltd</p>
+                    <p><span class="fw-bolder ">Location :</span> Noida</p>
+                    <p><span class="fw-bolder">Services offered :</span> TDD</p>
+                </div>
+            </div>
+            <div class="col-2 OnCol3 onCol">
+                <img src="./assets/images/realA.jpg">
+                <div class="divide">
+                    <p class="fw-bolder">Ahuja Altus</p>
+                    <p class="fw-bolder plus7" style="cursor:pointer">+</p>
+                </div>
+                <div class="exten exten7">
+                    <p><span class="fw-bolder">Project Name :</span> Ahuja Altus</p>
+                    <p><span class="fw-bolder">Developer Name :</span> ATS Realty Pvt Ltd</p>
+                    <p><span class="fw-bolder">Location :</span> Noida</p>
+                    <p><span class="fw-bolder">Services offered :</span> TDD</p>
+                </div>
+            </div>
+            <div class="col-2 OnCol4 onCol">
+                <img src="./assets/images/realB.jpg">
+                <div class="divide">
+                    <p class="fw-bolder">Amaltas</p>
+                    <p class="fw-bolder plus8" style="cursor:pointer">+</p>
+                </div>
+                <div class="exten exten8">
+                    <p><span class="fw-bolder">Project Name :</span> Amaltas</p>
+                    <p><span class="fw-bolder">Developer Name :</span> ATS Realty Pvt Ltd</p>
+                    <p><span class="fw-bolder">Location :</span> Noida</p>
+                    <p><span class="fw-bolder">Services offered :</span> TDD</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mt-5" >
+        <div class="footer-overlay"></div>
+        <div class="row p-5 footer-con11">
+            <div class="col-21 ">
+                <div class="logo d-flex">
+                <img src="./assets/images/home-removebg-preview.png" class="me-3 img-logo" >
+                <h5 class="mb-4" >Real Estate</h5>
+                </div>
+                <p >It is committed to delivering a
+                    high level of expertise, customer 
+                    service, and attention to the 
+                    marketing and sales</p>
+            </div>
+
+            <div class="col-21" >
+                <h5 class="mb-4">Contact Us</h5>
+                <div class="rowss">
+                    <div class="cols">
+                        <span ><ion-icon name="location"></ion-icon></span>
+                    </div>
+                    <div class="cols">
+                        <p >8638 America stranford Mailbon, california, TX 70240</p>
+                    </div>
+                </div>
+                <div class="rowss">
+                    <div class="cols">
+                        <span ><ion-icon name="mail"></ion-icon></span>
+                    </div>
+                    <div class="cols">
+                        <a href="mailto:support@gmail.com">support@gmail.com</p>
+                    </div>
+                </div>
+                <div class="rowss">
+                    <div class="cols">
+                        <span><ion-icon name="call"></ion-icon></span>
+                    </div>
+                    <div class="cols">
+                        <a href="tel:9002323243">9002323243</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-21">
+                <h5 class="mb-4" >Latest Properties</h5>
+                <div class="rows2 d-flex justify-content-between">
+                    <div class="col-2" >
+                        <img src="./assets/images/realtor_02.jpg">
+                    </div>
+                    <div class="col-2" >
+                        <p>Luxury house in greenville
+                            from $ 86,000</p>
+                    </div>
+                </div>
+                <div class="rows2 d-flex justify-content-between mt-3">
+                    <div class="col-2" >
+                        <img src="./assets/images/realestate5.jpg">
+                    </div>
+                    <div class="col-2" >
+                        <p>Luxury house in greenville
+                            from $ 86,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-21">
+                <h5 class="mb-4 socials" >Socials</h5>
+                <div class="footer-icons ms-auto" >
+                    <span>
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </span>
+                    <span>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </span>
+                    <span>
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </span>
+                    <span>
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </span>
+                </div>
+            </div>
+       </div>
+    </div>
+
+</body>
+
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- Javascript -->
+<script src="./assets/Javascript/script1.js"></script>
+
+</html>
